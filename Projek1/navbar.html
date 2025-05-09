@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body class="bg-amber-400 h-screen flex flex-col">
+    <header class="bg-[#D9D9D9] relative pl-80 h-72 hidden xl:block">
+        <div class="flex justify-end pr-5 gap-6 p-1 py-3.5">
+            <img class="w-8" src="img/icons8-volume-50.png" alt="">
+            <img class="w-8" src="img/icons8-without-internet-50.png" alt="">
+            <h2 class="text-[#AEABAB] font-bold text-2xl">17.20</h2>
+        </div>
+        <div class="bg-[#F2A9A9] flex items-center gap-1.5 justify-center">
+            <img class="w-6 h-6" src="/img/icons8-warning-50.png" alt="">
+            <h2 class="text-center font-bold text-[#D9D9D9] text-2xl py-1">Server Tidak Terhubung !</h2>
+            <img class="w-6 h-6" src="/img/icons8-warning-50.png" alt="">
+        </div>
+        <nav class="flex list-none gap-16 p-6 justify-center">
+            <li class="bg-amber-50 px-16 py-6 rounded-xl shadow-[4px_4px_2px_rgba(0,0,0,0.2)] font-bold text-[#636060] text-xl"><a href="not.html">Home</a></li>
+            <li class="bg-amber-50 px-16 py-6 rounded-xl shadow-[4px_4px_2px_rgba(0,0,0,0.2)] font-bold text-[#636060] text-xl"><a href="not.html">Admin</a></li>
+            <li class="bg-amber-50 w-48 py-6 rounded-xl shadow-[4px_4px_2px_rgba(0,0,0,0.2)] font-bold text-[#636060] text-xl flex justify-center"><a href="not.html">Data Base</a></li>
+            <li class="bg-amber-50 px-16 py-6 rounded-xl shadow-[4px_4px_2px_rgba(0,0,0,0.2)] font-bold text-[#636060] text-xl"><a href="not.html">Server</a></li>
+        </nav>
+    </header>
+
+    <aside class="bg-[#D2CCCC] shadow-[6px_4px_16px_rgba(0,0,0,0.2)] absolute top-0 w-80 h-full rounded-sm flex flex-col items-center opacity-0 xl:opacity-100">
+        <img src="/img/icons8-close-50 (1).png" alt="" class="opacity-30 right-0 absolute w-20 p-4 top-0">
+        <div class="w-56 h-56 bg-[#D9D9D9] rounded-full relative flex items-center justify-center z-50 shadow-[4px_4px_2px_rgba(0,0,0,0.2)] mt-12 mb-5">
+            <div class="w-20 h-20  border-[#D9D9D9] bg-[#D2CCCC] shadow-[4px_4px_20px_rgba(0,0,0,0.2)]  rounded-full absolute top-4 z"></div>
+            <div class="w-32 h-20  border-[#D9D9D9] bg-[#D2CCCC] shadow-[4px_4px_20px_rgba(0,0,0,0.2)] rounded-t-full absolute bottom-8"></div>
+        </div>
+        <h2 class=" font-bold text-2xl text-center text-[#636060]">Company Profile</h2>
+        <ul class="pl-10 list-disc gap-4 flex flex-col py-7 border-b-2 w-[80%] ">
+            <li class="font-bold text-2xl text-[#636060]"><a href="not.html">Home</a></li>
+            <li class="font-bold text-2xl text-[#636060]"><a href="not.html">Admin</a></li>
+            <li class="font-bold text-2xl text-[#636060]"><a href="not.html">Data Base</a></li>
+            <li class="font-bold text-2xl text-[#636060]"><a href="not.html">Server</a></li>
+            <li class="font-bold text-2xl text-[#636060]"><a href="not.html">Projek</a></li>
+        </ul>
+        <ul class="pl-10 list-disc gap-4 flex flex-col py-7 w-[80%] ">
+            <li class="font-bold text-2xl text-[#636060]"><a href="not.html">Quit</a></li>
+        </ul>
+    </aside>
+
+    <section class="bg-white flex pl-80 h-full flex-col justify-between pt-8 opacity-0 xl:opacity-100">
+        
+        <section  class="h-[42%] w-full flex justify-evenly">
+            <div class="bg-[#F0D1D1] w-[30%] rounded-2xl px-14 gap-2 py-1 flex flex-col">
+                <h2 class="flex justify-between font-bold text-2xl text-[#636060] opacity-75">Member <span>...</span></h2>
+                <div class="bg-white w-full h-full rounded-2xl p-3">
+                    <div class="border-b-8 border-l-8 w-full h-full border-[#636060] flex justify-evenly items-end ">
+                        <div class="w-7 h-[20%] bg-[#CE8989] "></div>
+                        <div class="w-7 h-[60%] bg-[#CE8989] "></div>
+                        <div class="w-7 h-[30%] bg-[#CE8989] "></div>
+                        <div class="w-7 h-[80%] bg-[#CE8989] "></div>
+                        <div class="w-7 h-[50%] bg-[#CE8989] "></div>
+                    </div>
+                </div>
+                <h2 class="bg-white inline-block mx-auto px-4  rounded font-extrabold text-sm text-[#CE8989]">2021</h2>
+            </div>
+            
+            <div class="bg-[#F0D1D1] w-[30%] rounded-2xl px-14 gap-2 py-1 flex flex-col">
+                <h2 class="flex justify-between font-bold text-3xl text-[#636060] opacity-75">Member <span>...</span></h2>
+                <div class="bg-white w-full h-full rounded-2xl p-3">
+                    <div class="border-b-8 border-l-8 w-full h-full border-[#636060] flex justify-evenly items-end ">
+                        <div class="w-7 h-[60%] bg-[#CE8989] "></div>
+                        <div class="w-7 h-[20%] bg-[#CE8989] "></div>
+                        <div class="w-7 h-[50%] bg-[#CE8989] "></div>
+                        <div class="w-7 h-[30%] bg-[#CE8989] "></div>
+                        <div class="w-7 h-[80%] bg-[#CE8989] "></div>
+                    </div>
+                </div>
+                <h2 class="bg-white inline-block mx-auto px-4  rounded font-extrabold text-sm text-[#CE8989]">2022</h2>
+            </div>
+        </section>
+
+        <section  class="h-[53%] w-full  flex justify-center ">
+
+            <div class="bg-[#D2CCCC] w-[74%] rounded-t-2xl px-14 pt-4 gap-4 flex flex-col">
+                <h2 class="flex justify-between font-bold text-3xl text-[#636060] opacity-75">Index Traffic <span>...</span></h2>
+                <div class="bg-white w-full h-full rounded-t-2xl">
+                    <div class=" border-l-8 w-full h-full border-[#636060] flex justify-evenly items-end ">
+                        <div class="w-24 h-[60%] bg-[#CE8989] "></div>
+                        <div class="w-24 h-[20%] bg-[#CE8989] "></div>
+                        <div class="w-24 h-[50%] bg-[#CE8989] "></div>
+                        <div class="w-24  bg-[#CE8989] "></div>
+                        <div class="w-24  bg-[#CE8989] "></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </section>
+
+    <section class="h-screen w-screen absolute z-1000 flex justify-center items-center xl:hidden">
+        <h2 class="text-8xl font-extrabold text-center">Buka Pake Laptop;)</h2>
+    </section>
+    
+</body>
+</html>
